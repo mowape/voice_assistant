@@ -87,7 +87,7 @@ def load_cached_apps():
     return scan_for_apps()
 
 def fetch_india_headlines():
-    api_key = "475babbeefd68405eef81a2f62282bfe"
+    api_key = "add your api-key"
     url = f"https://gnews.io/api/v4/top-headlines?token={api_key}&country=in&lang=en&max=5"
 
     try:
